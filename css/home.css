@@ -1,0 +1,61 @@
+
+
+
+.welcome  {
+    height: 100vh;
+    background-image: url(../images/elevi-bac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-top: 147px;
+    margin-bottom: 0;
+}
+
+
+
+.welcome img {
+    height: 24px;
+    width: auto;
+    margin-left: var(--spacing-medium);
+
+    position: relative;
+    top: var(--spacing-tiny);
+}
+.prezentare {
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.welcomecontact  {
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer {
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.welcomecrearesite {
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcomecrearelogo {
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,42 @@
+.welcomecrearesite {
+    color: var(--text-secondary);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+   
+    font-size: var(--fs-large);
+}
+.crearesite a {
+    color: var(--text-secondary);
+    font-size: var(--fs-large);
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: fixed;
+    background-color: orangered;
+    padding: var(--space-large);
+    border: 6px solid;
+    border-radius: 50px;
+    width: 400px;
+    
+}
+.crearesite .container-site {
+    max-width: 1000px;
+    position: relative;
+    text-align: center;
+}
+
+
+img {
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin: 0;
+}
+

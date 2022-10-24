@@ -1,0 +1,98 @@
+.welcomecontact {
+    color: var(--text-secondary);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+    font-size: var(--fs-large);
+}
+.contact h2, p1 {
+    color: var(--text-primary);
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    font-size: var(--fs-large);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+
+}
+
+.contact img {
+    height: 350px;
+    width: auto;
+   
+}
+#img {
+    text-align: center;
+}
+
+.contact .container-grid .material-symbols-outlined {
+    color: orange;
+    text-shadow: orange;
+    text-align: left;
+    flex-grow: 1;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-top: calc(2 * var(--fs-small));
+}
+.contact .contact-form h1 {
+    color: var(--text-primary);
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+.contact ul, .contact form {
+    width: 50%;
+   
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    padding: var(--spacing-medium);
+}
+
+.contact label {
+    margin-bottom: var(--spacing-small);
+}
+.contact input, .contact textarea {
+    padding: var(--spacing-small);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: var(--spacing-small);
+}
+.contact input[type="submit"] {
+    font-size: var(--fs-small);
+    text-align: center;
+
+    color: white;
+    background-color: rgb(71, 113, 8);
+
+    border: 1px solid rgb(41, 66, 4);
+    border-radius: 5px;
+    padding: var(--spacing-small);
+
+    width: 100px;
+}
+.contact li {
+    display: flex;
+    
+    justify-content: space-between;
+
+    padding-bottom: var(--spacing-small);
+    margin-bottom: var(--spacing-medium);
+
+}
+.contact .contact-wrapper {
+    font-size: var(--fs-medium);
+}
+
+
+
+
+
