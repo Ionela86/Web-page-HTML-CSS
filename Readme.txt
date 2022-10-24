@@ -1,0 +1,1 @@
+This is the first project in which I put into practice all the information received during the IT School course
