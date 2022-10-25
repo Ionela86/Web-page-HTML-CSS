@@ -10,7 +10,7 @@
     --spacing-medium: 1rem;
     --spacing-small: 0.5rem;
     --spacing-tiny: 0.25rem;
-    --spacing-large: 15rem;
+    --spacing-large: 12rem;
     --spacing-xl: 2.625rem;
     --mobile-logo-height: 45px;
 }
@@ -141,11 +141,25 @@ nav .servicii:hover .submenu {
 main .welcome .container h1 {
     color: var(--text-primary);
     font-size: var(--fs-large);
-    margin-bottom: var(--spacing-medium);
+    justify-content: center;
+    text-align: center;
+    
+    margin-bottom: var(--spacing-small);
     font-style: oblique;
     font-weight: bold;
     margin-top: var(--spacing-large);
 
+}
+.welcome .container .description h2 {
+    color: var(--text-secondary);
+    font-size: var(--fs-medium1);
+    justify-content: center;
+    text-align: center;
+    margin-left: 350px;
+    font-style: oblique;
+    font-weight: bold;
+    margin-top: 0;
+    
 }
 
 main .welcome img {
@@ -174,14 +188,14 @@ p {
     width: auto;
     height: 70px;
     margin-left: 250px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 
 .prezentare .container-prez .description {
     display: flex;
     margin-left: 250px;
-    margin-right: 650px;
+    margin-right: 350px;
     
     min-height: 250px;
     font-weight: bold;
