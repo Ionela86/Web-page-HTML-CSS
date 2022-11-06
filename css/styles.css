@@ -10,7 +10,7 @@
     --spacing-medium: 1rem;
     --spacing-small: 0.5rem;
     --spacing-tiny: 0.25rem;
-    --spacing-large: 12rem;
+    --spacing-large: 15rem;
     --spacing-xl: 2.625rem;
     --mobile-logo-height: 45px;
 }
@@ -196,7 +196,7 @@ p {
     display: flex;
     margin-left: 250px;
     margin-right: 350px;
-    
+
     min-height: 250px;
     font-weight: bold;
     overflow: hidden;
@@ -254,7 +254,7 @@ height: 70vh;
 .bussines .container .description-business p {
     display: flex;
     padding: var(--spacing-medium);
-    margin-top: 50px;
+    margin-top: var(--spacing-large);
     justify-content: center;
     
     align-content: center;
